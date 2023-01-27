@@ -1,0 +1,39 @@
+body {
+    font-family: Quicksand;
+    margin: 0;
+}
+#id-header{
+    font-size: xx-large;
+    text-align: center;
+    height: 2em;
+    background-color: lightgray;
+}
+
+#middle{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#money{
+    font-weight: 500;
+    font-size: xx-large;
+    color: green
+}
+
+#check {
+    display: flex;
+    flex-direction: column;
+}
+
+#button1{
+    background-color: red;
+    color: whitesmoke;
+    padding: 2em 20%;
+    border-radius: 20%;
+
+}
+
+#action{
+    border: solid black;
+    
+}

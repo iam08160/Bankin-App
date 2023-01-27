@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="id-header">
+        <header>MacKenzie Coins</header>
+    </div>
+    <div id="middle">
+        <div id="check">
+            <h2>Balance</h2>
+            <p id="money">$ 0.00</p>
+            <button id="button1">Reset</button>
+        </div>
+        <div id="action">
+            <div id="Submit">
+                <H3>Submit Transcation</H3>
+            </div>
+            <div id="amount">
+                <label for="amount">Amount:</label>
+                <p>$</p><input type="number" step-".01" name="amount" id="amount">
+            </div>
+            <div id="dropout">
+                <label for="Type">Type</label>
+                <select>
+                    <option value="Deposit">Deposit</option>
+                    <option value="Withdrawl">Withdrawl</option>
+                </select>
+            </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+        </div>
+
+    </div>
+    <div>
+        <table>
+            <td>Transaction ID</td>
+            <td>Type</td>
+            <td>Amount</td>
+            <td>Starting Balance</td>
+            <td>New Balance</td>
+        </table>
+    </div>
+</body>
+</html>
+
